@@ -1,0 +1,70 @@
+.modal {
+    width: 700px;
+    height: 330px;
+    background: #FFFFFF;
+    padding: 35px 45px;
+    border-radius: 10px;
+}
+
+.title {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 20px;
+    color: #000000;
+
+}
+
+.subTitle {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.inputs input {
+    width: 290px;
+    height: 45px;
+    background: #FAFAFA;
+    border: 1px solid #EFEFEF;
+    border-radius: 5px;
+    margin: 0 12px 12px 0px;
+    padding: 14px 24px;
+}
+
+.inputs input::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #939393;
+}
+
+@media (max-width: 768px) {
+    .modal {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+    .inputs input {
+        width: 100%;
+        height: 45px;
+        margin: 0 12px 12px 0px;
+        padding: 14px 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .inputs input {
+        width: 100%;
+        height: 45px;
+        margin: 0 12px 12px 0px;
+        padding: 14px 24px;
+    }
+
+}

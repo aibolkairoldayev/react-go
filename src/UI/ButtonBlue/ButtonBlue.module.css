@@ -1,0 +1,25 @@
+.btn {
+    width: 186px;
+    height: 47px;
+    background: #0071E3;
+    border-radius: 5px;
+    z-index: 0;
+}
+
+.btnLink {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 115%;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.btn:hover {
+    background: #229be1;
+}
+
+.btnLink:hover {
+    color: #FFFFFF !important;
+}

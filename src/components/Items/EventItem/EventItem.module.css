@@ -1,0 +1,79 @@
+.eventItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    z-index: 2;
+    position: relative;
+}
+
+.eventImg {
+    width: 100%;
+}
+
+.eventImg img {
+    width: 100%;
+    max-height: 350px;
+    box-shadow: 0px 4px 35px rgba(117, 64, 47, 0.39);
+    border-radius: 10px;
+}
+
+.eventInfo {
+    padding: 30px 100px 30px 40px;
+}
+
+.eventInfo span {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 137.5%;
+    color: #0071E3;
+}
+
+.eventName a{
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 137.5%;
+    color: #111111;
+    margin: 15px 0 20px;
+}
+
+.eventText {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+    color: #000000;
+    opacity: 0.75;
+}
+
+.eventLinks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+    .eventInfo {
+        padding: 5px 25px;
+    }
+}
+
+@media (max-width: 992px) {
+    .eventName {
+        font-size: 20px;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .eventItem {
+        display: block;
+    }
+    .eventInfo {
+        padding: 10px 0;
+    }
+}

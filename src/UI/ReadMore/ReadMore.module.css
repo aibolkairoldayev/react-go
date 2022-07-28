@@ -1,0 +1,35 @@
+a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 115%;
+    color: #0071E3;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.readMore::after {
+    position: absolute;
+    margin-left: 5px;
+    content: "";
+    width: 10px;
+    height: 100%;
+    z-index: 1;
+    background: url("../../../public/images/vector-right.svg")  0 1.5% no-repeat;
+}
+
+a:hover{
+    color: #229be1;
+}
+
+.readMoreArrow {
+    width: 4px;
+    height: 8px;
+}
+
+@media (max-width: 768px) {
+    .readMore::after{
+        background: url("../../../public/images/vector-right.svg")  0 0.8% no-repeat;
+    }
+}

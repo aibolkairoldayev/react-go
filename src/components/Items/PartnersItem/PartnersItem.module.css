@@ -1,0 +1,32 @@
+.partnersImg {
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.partnersImg img {
+    width: auto !important;
+    height: 100%;
+    max-height: 110px;
+    max-width: 215px;
+}
+
+.partnersName {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 137.5%;
+    text-align: center;
+    color: #333333;
+    white-space: break-spaces;
+    margin-bottom: 15px;
+}
+
+.partnersItem {
+    text-align: center;
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}

@@ -1,0 +1,29 @@
+.breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.breadcrumbs li {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+    color: #000;
+}
+
+.breadcrumbs ol a {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #3E3E3E;
+}
+
+.breadcrumbs ol .main {
+    color: #A1A1A1;
+}
+
+.breadcrumbs ol .subMain {
+    color: #A1A1A1;
+}

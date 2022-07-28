@@ -1,0 +1,20 @@
+.notFound {
+    text-align: center;
+    vertical-align: center;
+}
+
+
+.title {
+    font-size: 280px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.toHome a {
+    font-size: 30px;
+    text-decoration: underline;
+}

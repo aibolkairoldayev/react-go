@@ -1,0 +1,13 @@
+.image {
+    width: 34px;
+    height: 34px;
+}
+
+.shareWhite {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 50%;
+}
